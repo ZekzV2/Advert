@@ -47,7 +47,7 @@ VG.SendNotification = function(Title, Text, Icon, Duration)
 end
 
 ImageButton.MouseButton1Click:Connect(function()
-    setclipboard("https://robloxscripts.com")
+    setclipboard("")
     VG.SendNotification("Copied to ClipBoard", 'Thank you', nil, 5)
 end)
 
